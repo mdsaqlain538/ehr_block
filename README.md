@@ -1,73 +1,82 @@
+Here's a more polished and professional version of your documentation for **EHR 2.0**:
+
+---
+
 # EHR 2.0
 
+## Live Site
+The live version of the application is hosted on Firebase.  
+**Access it here**: [EHR 2.0 Live Site](https://ehr-2-0.web.app/)
 
-## Live
-Live site hosted in firebase
- [Click here](https://ehr-2-0.web.app/)
+## Full Features of the Project
+- **Appointments Management**  
+- **PDF Upload Capability**  
+- **Additional Functionalities and Features**  
 
-## For Full working project 
+### Project Demonstration & Setup
+- **Demo Video**: Watch the demonstration on [YouTube](https://youtu.be/d_-pWoGgdVs)
+- **Setup Guide**: Detailed step-by-step setup available on [YouTube](https://youtube.com/playlist?list=PL54V-i7zW55d1VKxEkp9DCPt5k_zE6m3X)
 
--- Apponitments <br>
--- Pdf upload <br>
--- and much more. <br>
+---
 
-Demo : [Youtube](https://youtu.be/d_-pWoGgdVs)
-<br>
-Setup : [Youtube](https://youtube.com/playlist?list=PL54V-i7zW55d1VKxEkp9DCPt5k_zE6m3X)
+### Contact Information
+For inquiries, please contact:  
+**Email**: [tshamil90@gmail.com](mailto:tshamil90@gmail.com?Subject=ehr-blockchain&Body=Hi,)
 
-contact : 
-[Mail](mailto:tshamil90@gmail.com?Subject=ehr-blockchain&Body=Hi,)
-`tshamil90@gmail.com`
+---
 
-🆁🅴🆀🆄🅸🆁🅴🅼🅴🅽🆃🆂
+## System Requirements & Setup Instructions
 
-1.Install nodeJs
+### 1. Prerequisites
+- **Node.js**  
+  Download and install Node.js: [Node.js Download](https://nodejs.org/en/download/)
 
-* [Node JS](https://nodejs.org/en/download/)
+- **Ganache**  
+  Install Ganache for blockchain testing: [Download Ganache](https://www.trufflesuite.com/ganache)
 
-2.Install Ganache
+- **IPFS (Kubo)**  
+  Download and configure IPFS: [IPFS Kubo Download](https://dist.ipfs.tech/#go-ipfs)  
+  Configuration guide: [IPFS Configuration Reference](https://github.com/shamil-t/ehr-blockchain/issues/15#issuecomment-1333342345)
 
-* [Ganache Truffle](https://www.trufflesuite.com/ganache)
+- **Metamask Browser Extension**  
+  Add the Metamask extension for your browser: [Metamask for Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en-US)
 
-3. Download IPFS (kubo)
+### 2. Installation and Setup
 
-* [IPFS Kubo](https://dist.ipfs.tech/#go-ipfs)
-
-  - configure ipfs refer: https://github.com/shamil-t/ehr-blockchain/issues/15#issuecomment-1333342345
-
-4.Add Metamask Extension in Browser
-
-* [Metamask Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en-US)
-
-5. open cmd in project directory
-
-```
+#### Step 1: Install Project Dependencies
+Open a command prompt (CMD) in the project directory and run:
+```bash
 npm install --force
 ```
 
-5.open cmd/terminal as Administrator and type
-
-```
+#### Step 2: Install Truffle Globally
+Run the following command as an administrator:
+```bash
 npm install -g truffle
 ```
 
-6.open Ganache
- 
- *  New Workspace
- *  AddProject
- *  Select truffle-config.js in Project Directory
- *  Save Workspace
+#### Step 3: Open Ganache
+- Create a new workspace in Ganache.
+- Add the project by selecting `truffle-config.js` from your project directory.
+- Save the workspace.
 
-7.Compile and migrate Contracts
- ```
- truffle migrate
- ```
-8. Run Server
-
+#### Step 4: Compile and Migrate Smart Contracts
+Run the following command to compile and deploy contracts:
+```bash
+truffle migrate
 ```
+
+#### Step 5: Start the Development Server
+Run the following command to start the server:
+```bash
 npm start
 ```
 
-Known Issue: (https://github.com/shamil-t/ehr-blockchain/issues/15)
+---
 
+### Known Issues
+For information on known issues and their resolutions, refer to: [GitHub Issue #15](https://github.com/shamil-t/ehr-blockchain/issues/15)
 
+---
+
+This polished version aims to improve clarity and professionalism, enhancing user understanding and providing a structured setup guide. Let me know if you need any further adjustments!
