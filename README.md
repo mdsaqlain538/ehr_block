@@ -4,24 +4,17 @@ Here's a more polished and professional version of your documentation for **EHR 
 
 # EHR 2.0
 
-## Live Site
-The live version of the application is hosted on Firebase.  
-**Access it here**: [EHR 2.0 Live Site](https://ehr-2-0.web.app/)
 
 ## Full Features of the Project
 - **Appointments Management**  
 - **PDF Upload Capability**  
 - **Additional Functionalities and Features**  
 
-### Project Demonstration & Setup
-- **Demo Video**: Watch the demonstration on [YouTube](https://youtu.be/d_-pWoGgdVs)
-- **Setup Guide**: Detailed step-by-step setup available on [YouTube](https://youtube.com/playlist?list=PL54V-i7zW55d1VKxEkp9DCPt5k_zE6m3X)
-
 ---
 
 ### Contact Information
 For inquiries, please contact:  
-**Email**: [tshamil90@gmail.com](mailto:tshamil90@gmail.com?Subject=ehr-blockchain&Body=Hi,)
+**Email**: saqlain.patel.md@gmail.com
 
 ---
 
